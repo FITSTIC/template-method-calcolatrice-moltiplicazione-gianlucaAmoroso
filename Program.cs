@@ -10,6 +10,15 @@ namespace CalcolatriceTemplateMethod
     {
         static void Main(string[] args)
         {
+            CalcMoltStandard moltStand = new CalcMoltStandard();
+            moltStand.CalcolaMostraMolt(3, 4);
+
+            Console.WriteLine();
+
+            CalcMoltSommatoria moltSomm = new CalcMoltSommatoria();
+            moltSomm.CalcolaMostraMolt(3, 4);
+
+            Console.ReadKey();
         }
     }
 }
